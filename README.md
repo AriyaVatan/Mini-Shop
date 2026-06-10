@@ -67,20 +67,33 @@ http://localhost:5173
 * Zod
 * React Context API
 
-## Project Structure
-
-```text
+Project Structure
 src/
+│
 ├── app/
+│   ├── router.tsx
+│   └── ProtectedRoute.tsx
+│
 ├── features/
 │   ├── products/
 │   ├── cart/
 │   ├── auth/
 │   └── admin/
+│
 ├── pages/
+│   ├── Shop/
+│   ├── Login/
+│   └── Admin/
+│
 ├── lib/
+│   ├── axios.ts
+│   └── react-query.ts
+│
+├── components/
+│
+├── assets/
+│
 └── main.tsx
-```
 
 ## Author
 
