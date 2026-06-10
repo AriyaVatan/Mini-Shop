@@ -6,7 +6,7 @@ Modern e-commerce application built with React, TypeScript, React Query and Tail
 
 This project uses a mock backend server (AI-generated and customized for project requirements) to simulate real-world API behavior, including authentication, product management and CRUD operations.
 
-Run the backend:
+### Start Backend
 
 ```bash
 cd backend
@@ -20,17 +20,7 @@ Backend runs on:
 http://localhost:3001
 ```
 
-## Run Project
-
-### 1. Start Backend
-
-```bash
-cd backend
-npm install
-node server.js
-```
-
-### 2. Start Frontend
+## Start Frontend
 
 ```bash
 npm install
@@ -51,9 +41,9 @@ http://localhost:5173
 * Shopping Cart Management
 * Admin Dashboard
 * Create / Edit / Delete Products
-* Responsive UI
 * Form Validation
-* Error & Loading States
+* Responsive UI
+* Loading & Error Handling
 
 ## Tech Stack
 
@@ -67,20 +57,21 @@ http://localhost:5173
 * Zod
 * React Context API
 
-## Project Structure
+## Architecture
 
-```text
-src/
-├── app/
-├── features/
-│   ├── products/
-│   ├── cart/
-│   ├── auth/
-│   └── admin/
-├── pages/
-├── lib/
-└── main.tsx
-```
+Feature-based folder structure with separated modules for:
+
+* Products
+* Cart
+* Authentication
+* Admin Panel
+
+Additional layers:
+
+* Routing
+* API Services
+* React Query Configuration
+* Reusable Components
 
 ## Author
 
