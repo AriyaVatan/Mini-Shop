@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+# MiniShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern e-commerce application built with React, TypeScript, React Query and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Mock Backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project uses a mock backend server (AI-generated and customized for project requirements) to simulate real-world API behavior, including authentication, product management and CRUD operations.
 
-## React Compiler
+Run the backend:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd backend
+npm install
+node server.js
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Backend runs on:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+http://localhost:3001
 ```
+
+## Run Project
+
+### 1. Start Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+### 2. Start Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+## Features
+
+* Authentication & Protected Routes
+* Product Search & Filtering
+* Pagination
+* Shopping Cart Management
+* Admin Dashboard
+* Create / Edit / Delete Products
+* Responsive UI
+* Form Validation
+* Error & Loading States
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* React Router
+* React Query
+* Axios
+* Tailwind CSS
+* Zod
+* React Context API
+
+## Project Structure
+
+```text
+src/
+├── app/
+├── features/
+│   ├── products/
+│   ├── cart/
+│   ├── auth/
+│   └── admin/
+├── pages/
+├── lib/
+└── main.tsx
+```
+
+## Author
+
+Ariya Vatan
+
+GitHub: https://github.com/AriyaVatan
