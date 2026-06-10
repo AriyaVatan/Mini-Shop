@@ -57,7 +57,6 @@ http://localhost:5173
 * Zod
 * React Context API
 
-<<<<<<< HEAD
 ## Architecture
 
 Feature-based folder structure with separated modules for:
@@ -73,35 +72,6 @@ Additional layers:
 * API Services
 * React Query Configuration
 * Reusable Components
-=======
-Project Structure
-src/
-│
-├── app/
-│   ├── router.tsx
-│   └── ProtectedRoute.tsx
-│
-├── features/
-│   ├── products/
-│   ├── cart/
-│   ├── auth/
-│   └── admin/
-│
-├── pages/
-│   ├── Shop/
-│   ├── Login/
-│   └── Admin/
-│
-├── lib/
-│   ├── axios.ts
-│   └── react-query.ts
-│
-├── components/
-│
-├── assets/
-│
-└── main.tsx
->>>>>>> 7bae8fa02636c2e63b751c48540f7106d02005e0
 
 ## Author
 
