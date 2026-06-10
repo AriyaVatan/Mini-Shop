@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Nike Shoes",
+      "price": 120,
+      "category": "sport",
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "title": "MacBook",
+      "price": 2400,
+      "category": "tech",
+      "stock": 2
+    },
+    {
+      "id": 3,
+      "title": "T-Shirt",
+      "price": 30,
+      "category": "fashion",
+      "stock": 20
+    },
+    {
+      "title": "Counter-Strike",
+      "category": "Games",
+      "price": 100,
+      "stock": 50,
+      "id": 4
+    },
+    {
+      "title": "Dota 2",
+      "category": "Games",
+      "price": 100,
+      "stock": 15,
+      "id": 5
+    },
+    {
+      "title": "AirPod",
+      "category": "Tech",
+      "price": 1200,
+      "stock": 20,
+      "id": 7
+    },
+    {
+      "title": "Leauge of Legends",
+      "category": "Games",
+      "price": 55,
+      "stock": 5,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "password": "123456",
+      "token": "super-token"
+    }
+  ]
+}
