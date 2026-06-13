@@ -6,7 +6,16 @@ Modern e-commerce application built with React, TypeScript, React Query and Tail
 
 This project uses a mock backend server (AI-generated and customized for project requirements) to simulate real-world API behavior, including authentication, product management and CRUD operations.
 
-### Start Backend
+## Demo Credentials
+
+Use the following credentials to access the application:
+
+```text
+Email: admin@test.com
+Password: 123456
+```
+
+## Start Backend
 
 ```bash
 cd backend
@@ -59,7 +68,7 @@ http://localhost:5173
 
 ## Architecture
 
-Feature-based folder structure with separated modules for:
+Feature-based folder structure with dedicated modules for:
 
 * Products
 * Cart
@@ -75,6 +84,7 @@ Additional layers:
 
 ## Author
 
-Ariya Vatan
+**Ariya Vatan**
+Front-End Developer
 
 GitHub: https://github.com/AriyaVatan
